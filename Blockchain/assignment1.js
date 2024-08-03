@@ -1,8 +1,10 @@
 /*
- * Give me an input string that outputs a SHA-256 hash that  starts with `00000` . **How will you do it?** 
+ * Give me an input string that outputs a SHA-256 hash that  starts with `00000` . 
+ ** How will you do it?** 
  * A: You will have to brute force until you find a value that starts with `00000`**
  *
 */
+
 const crypto = require('crypto');
 
 // Function to find an input string that produces a hash starting with '00000'
